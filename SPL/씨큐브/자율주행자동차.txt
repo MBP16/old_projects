@@ -1,0 +1,61 @@
+int PSD[19]
+int min_deg = 0
+int min = 0
+int s = 0
+
+int search()
+{
+	DriveWrite(0,0)
+	min = 1023
+	min_deg = 0
+	for ( i = 0 ; i<19; i++)
+	{
+		ServoWrite(2, i*10)
+		PSD[i] = AnalogRead(0)
+		if(PSD[i]<min)
+		{
+			min_deg = i*10
+			min = PSD[i]
+		}
+		Delay(100)
+	}
+	ServoWrite(2, 90)
+	Delay(200) // 서보모터가 제자리로 오기까지 시간주기
+}
+
+void turn()
+{
+	s = AnalogRead(0)
+	while (s>min+5 || s<min-5)
+	{
+		s = AnalogRead(0)
+		if (min_deg > 90)
+		{
+			DriveWrite(150, -150)
+		}
+		else
+		{
+			DriveWrite(150, -150)
+		}
+	}
+}
+
+void setup()
+{
+	ServoWrite(2, 90)
+}
+
+
+void loop()
+{
+	s = AnalogRead(0)
+	if ( s<380)
+	{
+		DriveWrite(150,150)
+	}
+	else
+	{
+		search()
+		turn()
+	}
+}

@@ -1,0 +1,20 @@
+﻿b=-1
+
+void setup()
+{
+	LcdBackLight()
+}
+
+void loop()
+{
+   a= AnalogRead(0)
+	if(a<520&&a>500)
+	 {
+	    LcdPrint("A")	
+		b=b+1
+	    PrintLine(b)
+	 }
+Delay(200)
+}
+
+   

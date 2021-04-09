@@ -1,0 +1,15 @@
+﻿int calculate_2(int A)
+{
+	int B = A-A/8
+	return B
+}
+
+void setup()
+{
+	print(calculate_2(1000))	
+}
+
+void loop()
+{
+
+}

@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int max(int a, int b)
+{
+  if(a >= b)
+  {
+    return a;
+  }
+  else
+  {
+    return b;
+  }
+}
+int min(int a, int b)
+{
+  if(a >= b)
+  {
+    return b;
+  }
+  else
+  {
+    return a;
+  }
+}
+int main(void) 
+{
+  char c;
+  int number1, number2, output;
+  scanf("%c", &c);
+  scanf("%d", &number1);
+  scanf("%d", &number2);
+  if(c =='M')
+  {
+    output = max(number1, number2);
+    printf("%d", output);
+  }
+  else if(c == 'm')
+  {
+    output = min(number1, number2);
+    printf("%d", output);
+  }
+  else
+  {
+    printf("error");
+  }
+  return 0;
+}

@@ -1,0 +1,22 @@
+﻿int F[14]={660,660,524,660,784,392,524,392,328,440,492,466,440,392}
+int f=0
+
+void playsound()
+ {
+     f=f+1
+	 f=f%14
+     Tone(9,F[f],80)
+	 Delay(100)
+}
+
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+playsound()
+}
+

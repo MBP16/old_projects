@@ -1,0 +1,54 @@
+﻿
+
+void setup()
+{
+	LcdBackLight()
+	LcdClear()
+	NSBegin(8, 4)
+}
+a=0
+void loop()
+{
+	LcdClear()
+	DigitalTempRead(3)
+	t = Temperature
+	h = Humidity
+	LcdHome()
+	LcdPrint("T")
+	LcdPrint(":")
+	LcdPrint(t)
+	LcdSetCursor(0, 1)
+	LcdPrint("H")
+	LcdPrint(":")
+	LcdPrint(h)
+	a=180-6*(t-10)
+	ServoWrite(2,a)
+	Delay(100)
+	if (t>35)
+	  {  
+		 for (i = 0; i < 10; i++)
+		   {
+			   NSSetColor(i, 255, 0, 0)
+			   NSShow()
+		   }
+		
+	  }
+		if (t<25)
+	  {  
+		 for (i = 0; i < 10; i++)
+		   {
+			   NSSetColor(i, 0, 0, 255)
+			   NSShow()
+		   }
+		
+	  }
+		if (t<35&&t>=25)
+	  {  
+		 for (i = 0; i < 10; i++)
+		   {
+			   NSSetColor(i, 0,255, 0)
+			   NSShow()
+		   }
+		
+	  }
+}

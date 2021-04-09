@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+  int ia = 10;
+  int ib = 15;
+  printf("%p\n", &ia);
+  printf("%p\n", &ib);
+  char ca = 'a';
+  char cb = 'b';
+  printf("%p\n", &ca);
+  printf("%p\n", &cb);
+  float fa = 0.12;
+  float fb = 0.23;
+  printf("%p\n", &fa);
+  printf("%p\n", &fb);
+  double da = 0.1234;
+  double db = 0.2345;
+  printf("%p\n", &da);
+  printf("%p\n", &db);
+  return 0;
+}

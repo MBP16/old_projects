@@ -1,0 +1,45 @@
+﻿
+
+void setup()
+{
+	MatrixClear()
+}
+
+void loop()
+{
+	for(j=0;j<15;j++)
+	{
+		MatrixDrawPixel(1, j-5, LED_RED)
+		MatrixDrawPixel(6, j-5, LED_RED)
+		for (i = 0; i <3; i++)
+		{
+			MatrixDrawPixel(i, j-4, LED_RED)
+		}
+		for (i = 5; i <8; i++)
+		{
+			MatrixDrawPixel(i, j-4, LED_RED)
+		}
+		for(i=0;i<8;i++)
+		{
+			MatrixDrawPixel(i, j-3, LED_RED)
+		}
+		for(i=1;i<7;i++)
+		{
+			MatrixDrawPixel(i, j-2, LED_RED)
+		}
+		for(i=2;i<6;i++)
+		{
+			MatrixDrawPixel(i, j-1, LED_RED)
+		}
+		for(i=3;i<5;i++)
+		{
+			MatrixDrawPixel(i, j, LED_RED)
+		}
+		MatrixWriteDisplay()
+		Delay(500)
+		MatrixClear()
+		Delay(300)
+	}
+	
+	
+}

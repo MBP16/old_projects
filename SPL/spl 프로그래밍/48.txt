@@ -1,0 +1,17 @@
+﻿
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+	DigitalTempRead(3)
+	t = Temperature
+	h = Humidity
+	a=t+58
+	c=55*(100-h)/100
+	b=a-(a*c/100)
+	PrintLine(b)
+}

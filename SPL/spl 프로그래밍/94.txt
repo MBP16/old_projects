@@ -1,0 +1,51 @@
+﻿void matrix()
+{
+	for (k = 0;k < 9;k=k+1)
+	{
+		MatrixDrawPixel(z,k,LED_YELLOW)
+		MatrixWriteDisplay()
+		MatrixDrawPixel(z,k-1,LED_OFF)
+		MatrixWriteDisplay()
+	}
+}
+void matrix1()
+{
+	for (j = 0;j <9; j=j+1)
+	{
+		MatrixDrawPixel(y,j,LED_YELLOW)
+		MatrixWriteDisplay()
+		MatrixDrawPixel(y,j-1,LED_OFF)
+		MatrixWriteDisplay()
+		
+	}
+}
+
+void matrix2()
+{
+	for (i = 0; i <9; i=i+1)
+	{
+		MatrixDrawPixel(x,i,LED_YELLOW)
+		MatrixWriteDisplay()
+		MatrixDrawPixel(x,i-1,LED_OFF)
+		MatrixWriteDisplay()
+	}
+}
+
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+	x=random(8)
+	y=random(8)
+	z=random(8) 
+	void matrix(0)
+	Delay(200)
+	void matrix1(0)
+	Delay(200)
+	void matrix2(0)
+	Delay(200)
+}

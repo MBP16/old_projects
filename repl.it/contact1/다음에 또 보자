@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(void) {
+  printf("\"다음에 또 보자.\"");
+  return 0;
+}

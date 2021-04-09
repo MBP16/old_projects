@@ -1,0 +1,14 @@
+﻿
+void setup()
+{
+}
+
+void loop()
+{
+	NSBegin(8, 2)
+	NSClear()
+	NSSetColor(0, 0, 0, 0)
+	NSSetColor(1, 0, 0, 0)
+	NSSetColor(2, 0, 0, 0)
+	NSShow()
+}

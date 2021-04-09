@@ -1,0 +1,26 @@
+﻿#include<AnalogKeyPad.h>
+
+void setup()
+{
+	NSBegin(64,2)
+    MatrixClear()
+}
+
+int x=0
+
+void loop()
+{
+	int a = KeyPad(0)
+	MatrixDrawPixel(x ,7, 1)
+	MatrixWriteDisplay()
+    if (a==1 && x >0 && x<8)
+	 {
+	     x=x-1
+	 }
+    if(a == 2 && x>-1 && x<7)
+	 {
+	     x=x+1
+	 }
+    Delay(100)
+	MatrixClear()
+}

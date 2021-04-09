@@ -1,0 +1,33 @@
+﻿
+
+void setup()
+{
+	LcdBackLight()
+    LcdClear()
+}
+
+void loop()
+{   
+    LcdClear()
+	DigitalTempRead(2)
+    t = Temperature
+	h = Humidity
+    LcdHome()
+    LcdPrint("T")
+    LcdPrint(":")
+	LcdPrint(t)
+    LcdSetCursor(0, 1)
+	LcdPrint("H")
+	LcdPrint(":")
+	LcdPrint(h)
+    if (h>=35)
+      {
+    	  ServoWrite(3,135) 
+      }
+    
+    else
+    	{
+    	  	ServoWrite(3, 90)
+    	}
+    Delay(100)
+}

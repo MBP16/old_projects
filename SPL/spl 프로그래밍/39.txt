@@ -1,0 +1,56 @@
+﻿
+
+void setup()
+{
+       NSBegin(8, 3)
+}
+
+void loop()
+{
+	a = AnalogRead(0)
+	if (a>950&&a<970)
+        {
+            for (i = 0; i < 10; i++)
+	           {
+	     	       NSClear()
+                   NSSetColor(i, 255, 255, 0)
+	     	       NSShow()
+	           }
+	     }
+	if (a>500&&a<520  )
+	     {
+             for (i = 0; i < 10; i++)
+	           {
+	           	   NSClear()
+                   NSSetColor(i, 255, 0, 0)
+	           	   NSShow()
+	           } 
+	     }
+	 if ( a>760&&a<780 )
+	      {
+              for (i = 0; i < 10; i++)
+	            {
+	               NSClear()
+                   NSSetColor(i, 255, 255, 255)
+	           	   NSShow()
+	            }
+		  }
+	if (a>870&&a<890)
+		{
+       		  for (i = 0; i < 10; i++)
+	            {
+	               NSClear()
+                   NSSetColor(i, 0, 255, 0)
+	           	   NSShow()
+	            }     
+	   	}
+	if (a>670&&a<690)
+	    {
+             for (i = 0; i < 10; i++)
+	            {
+	               NSClear()
+                   NSSetColor(i, 0, 0, 255)
+	           	   NSShow()
+	            }
+	   	}   		                        		             
+}

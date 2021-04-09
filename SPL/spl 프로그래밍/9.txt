@@ -1,0 +1,15 @@
+﻿
+void setup()
+{
+}
+
+void loop()
+{
+	Delay(60000)
+	Tone(2, 1000, 500)
+	Delay(1000)
+	Tone(2, 1000, 500)
+	Delay(1000)
+	Tone(2, 1000, 500)
+	Delay(1000)
+}

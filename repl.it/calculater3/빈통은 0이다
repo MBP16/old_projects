@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  double world[5] = {1.0, 2.0, 3.0};
+  printf("%lf\n", world[0]);
+  printf("%lf\n", world[1]);
+  printf("%lf\n", world[2]);
+  printf("%lf\n", world[3]);
+  printf("%lf\n", world[4]);
+  return 0;
+}

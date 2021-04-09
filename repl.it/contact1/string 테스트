@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void)
+{
+  char ch = 'a';
+  char str[] = "apple";
+  printf("%C\n", ch);
+  printf("%s\n", str);
+  printf("%c\n", str[0]);
+  return 0;
+}

@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(void) {
+  char str[] = "내 이름은 현우야";
+  printf("%d", sizeof(str));
+  return 0;
+}

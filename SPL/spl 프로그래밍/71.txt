@@ -1,0 +1,18 @@
+﻿
+
+void all()
+{
+   
+}
+
+
+void setup()
+{
+	NSBegin(64,2)
+	NSClear()
+}
+
+void loop()
+{
+	
+}

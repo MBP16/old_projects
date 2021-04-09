@@ -1,0 +1,17 @@
+
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+	d0= DigitalRead(2)
+	d1= DigitalRead(3)
+	Print("left")
+	PrintLine(d0)
+	Print("right")
+	PrintLine(d1)
+	Delay(100)
+}

@@ -1,0 +1,11 @@
+﻿A=0
+
+void setup()
+{
+}
+
+void loop()
+{
+	B=A+2
+	PrintLine(B)
+}

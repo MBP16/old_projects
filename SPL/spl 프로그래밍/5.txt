@@ -1,0 +1,17 @@
+﻿s=0
+i=0
+
+void setup()
+{
+}
+
+void loop()
+{
+	i=i+1
+	if (i<=100)
+	{
+		s=s+i
+	}
+	PrintLine(s)
+	Delay(1000)
+}

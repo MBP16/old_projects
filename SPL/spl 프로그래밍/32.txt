@@ -1,0 +1,14 @@
+﻿
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+  a = AnalogRead(0)
+  b=255-a/4.1
+  AnalogWrite(3,b)
+  Delay(1000)
+}

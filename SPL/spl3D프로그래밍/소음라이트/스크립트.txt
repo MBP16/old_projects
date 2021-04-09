@@ -1,0 +1,11 @@
+﻿AddBox  base
+	/Scale:150  100  25
+AddBox  bx1
+	/Scale:145  95  20
+	/Position:0  0  -3
+Subtract base = bx1 [From] base
+AddBox  bx2
+	/Scale:82  3  100
+	/Position:0  0  0
+	/Orientation:0  0  90
+Subtract base  = bx2 [From] base 

@@ -1,0 +1,22 @@
+﻿
+
+void setup()
+{
+	NSBegin(64, 2)
+}
+
+void loop()
+{
+    for (i = 0; i < 64; i=i+9)
+      {
+	      NSSetColor(i, 255, 0, 0)
+		  NSShow()
+		  Delay(500)
+      }
+    for (i = 63; i >=0; i=i-9)
+      {
+	      NSSetColor(i, 255, 0, 0)
+		  NSShow()
+		  Delay(500)
+      }
+}

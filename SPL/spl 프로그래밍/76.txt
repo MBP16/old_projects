@@ -1,0 +1,27 @@
+﻿
+
+void setup()
+{
+	NSBegin(64,2)
+	MatrixClear()
+}
+
+void loop()
+{
+    MatrixClear()
+    X=random(8)
+	Y=random(8)
+    for(i=X;i<8;i=i+1)
+	  {
+	     MatrixDrawPixel(X,Y,LED_RED)
+		 MatrixDrawPixel(i,Y,LED_GREEN)
+		 MatrixWriteDisplay()
+	  }
+	for(j=Y+1;j<8;j=j+1)
+	  {
+	     MatrixDrawPixel(X,j,LED_GREEN)
+	     MatrixDrawPixel(X,Y,LED_RED)
+		 MatrixWriteDisplay()
+	  }
+    Delay(1000)
+}

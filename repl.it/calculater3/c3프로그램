@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+  int a = 0;
+  int i;
+  int h;
+  scanf("%d",&h);
+  while(a < h)
+  {
+    for(i = 0; i < a; i++)
+    {
+      printf(" ");
+    }
+    for(i = 0; i < h-a; i++)
+    {
+      printf("*");
+    }
+    printf("\n");
+    a++;
+  }
+  return 0;
+}

@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+float add(float a, float b )
+{
+  return a + b;
+}
+float sub(float a, float b)
+{
+  if(a > b)
+  {
+    return a - b;
+  }
+  else
+  {
+    return b - a;
+  }
+}
+int main(void) 
+{
+  float number1, number2, r;
+  scanf("%f", &number1);
+  scanf("%f", &number2);
+  r = add(number1, number2);
+  printf("합은%f입니다\n", r);
+  r = sub(number1, number2);
+  printf("차는%f입니다\n", r);
+  return 0;
+}

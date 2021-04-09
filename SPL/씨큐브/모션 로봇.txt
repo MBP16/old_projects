@@ -1,0 +1,204 @@
+int D_left = 0
+int D_right = 0
+int State_left = 0
+int State_right = 0
+int Count_left = 0
+int Count_right = 0
+int Left = 0
+int Right = 0
+int Enc_num = 0
+int PSD = 0
+int IR_left = 0
+int IR_right = 0
+int time = 0
+int reset = 0
+String state = "off"
+
+void GO()
+{
+	Right = 150
+	Left = 150
+	while(PSD > 300)
+	{
+		Encoder_str()
+		PSD = AnalogRead(0)
+	}
+}
+
+void RIGHT()
+{
+	Encoder_rot(200, -200, 15)
+	DriveWrite(150, 150)
+	Delay(1000)
+	DriveWrite(0, 0)
+}
+
+void LEFT()
+{
+	Encoder_rot(-200, 200, 15)
+	DriveWrite(150, 150)
+	Delay(1000)
+	DriveWrite(0, 0)
+}
+
+void TURN_RIGHT()
+{
+	Encoder_rot(200, -200, 60)
+}
+
+void TURN_LEFT()
+{
+	Encoder_rot(-200, 200, 60)
+}
+
+void Encoder_str()
+{
+	Left = 200
+	Right = 200
+	while (time > 0)
+	{
+		Count_left = 0
+		Count_right = 0
+		DriveWrite(Left, Right)
+		for (int i = 0; i<100; i++)
+		{
+			D_left = DigitalRead(2)
+			D_right = DigitalRead(3)
+			if (D_left != State_left)
+			{
+				Count_left = Count_left+1
+				State_left = D_left
+			}
+			if (D_right!=State_right)
+			{
+				Count_right = Count_right+1
+				State_right = D_right
+			}
+			Delay(5)
+		}
+		if ( Count_left > Count_right )
+		{
+			Left = Left-5
+			Right = Right+5
+		}
+		else if (Count_left < Count_right)
+		{
+			Left = Left+5
+			Right = Right-5
+		}
+		time = time-1
+	}
+}
+
+void Encoder_rot(int Left, int Right, int Enc_num)
+{
+	Left = 200
+	Right = -200
+	
+	Count_left = 0
+	Count_right = 0
+	while ( Left != 0 || Right != 0)
+	{
+		D_left = DigitalRead(2)
+		D_right = DigitalRead(3)
+		if (D_left != State_left)
+		{
+			Count_left = Count_left+1
+			State_left = D_left
+			if ( Count_left > Enc_num  )
+			{
+				Left = 0
+			}
+		}
+		if (D_right != State_right)
+		{
+			Count_right = Count_right+1
+			State_right = D_right
+			if ( Count_right > Enc_num )
+			{
+				Right = 0
+			}
+		}
+		DriveWrite(Left,Right)
+		Delay(5)
+	}
+}
+
+void setup()
+{
+	
+}
+void loop()
+{
+	PSD = AnalogRead(0)
+	IR_left = AnalogRead(1)
+	IR_right = AnalogRead(2)
+	if ( PSD > 400)
+	{
+		state = "PSD"
+		reset = millis()
+		time = millis()-reset
+		while ( time < 1000 )
+		{
+			time = millis() - reset
+			PSD = AnalogRead(0)
+			if ( PSD < 400 )
+			{
+				state = "off"
+				break
+			}
+		}
+		if( state == "PSD")
+		{
+			GO()
+		}
+	}
+	if (IR_left > 400)
+	{
+		state = "LEFT"
+		reset = millis()
+		time = millis() - reset
+		while ( time < 1000 )
+		{
+			time = millis() - reset
+			IR_left = AnalogRead(1)
+			IR_right = AnalogRead(2)
+			if(IR_left < 400)
+			{
+				state = "off"
+			}
+		}
+		if(state == "LEFT")
+		{
+			LEFT()
+		}
+		else if (state == "off" && IR_right > 400)
+		{
+			TURN_LEFT()
+		}
+	}
+	if (IR_right > 400)
+	{
+		state = "RIGHT"
+		reset = millis()
+		time = millis() - reset
+		while ( time < 1000 )
+		{
+			time = millis() - reset
+			IR_left = AnalogRead(1)
+			IR_right = AnalogRead(2)
+			if(IR_left < 400)
+			{
+				state = "off"
+			}
+		}
+		if(state == "RIGHT")
+		{
+			RIGHT()
+		}
+		else if (state == "off" && IR_left > 400)
+		{
+			TURN_RIGHT()
+		}
+	}	
+}

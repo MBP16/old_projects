@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  int exist = 0;
+  char str[100];
+  gets(str);
+  for(int i = 0 ; str[i]!='\0' ; i++)
+  {
+    if(str[i] == 'c')
+    {
+      exist = 1;
+      break;
+    }
+  }
+  if(exist == 1)
+  {
+    printf("YES!!!!!!!!!!!!");
+  }
+  else
+  {
+    printf("NO!!!!!!!!!!!!");
+  }
+  return 0;
+}

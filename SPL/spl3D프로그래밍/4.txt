@@ -1,0 +1,16 @@
+﻿AddBox  base
+	/Scale:32  3  10
+for (i = 0; i <= 30; i=i+1)
+{
+	AddBox  bx{i}
+		/Scale:0.1  3  4
+		/Position:{-15+i}  0  3
+	Subtract base = bx{i} [From] base
+}
+for (j = 0; j <= 30; j=j+1)
+{
+	AddBox  bx{j}
+		/Scale:0.2  10  6
+		/Position:{-15+j}  0  2
+	Subtract base = bx{j} [From] base
+}

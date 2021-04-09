@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+  char c;
+  int i;
+  c = getchar();
+  for(i = 0 ; i < 20 ; i++)
+  {
+    printf("%c\n", c);
+  }
+  return 0;
+}

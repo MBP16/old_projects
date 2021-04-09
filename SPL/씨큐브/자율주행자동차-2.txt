@@ -1,0 +1,140 @@
+int d_left = 0
+int d_right = 0
+int state_left = 0
+int state_right = 0
+long count_left = 0
+long count_right = 0
+int left = 200
+int right = 200
+int PSD[19]
+int min_deg = 0
+int min = 0
+int Enc_num = 0
+int s = 0
+
+void setup()
+{
+	ServoWrite(13, 90)
+}
+
+int MIN()
+{
+	DriveWrite(0,0)
+	min = 1023
+	min_deg = 0
+	for (int i = 0 ; i<19; i++)
+	{
+		ServoWrite(13, i*10)
+		PSD[i] = AnalogRead(0)
+		if (PSD[i] < min)
+		{
+			min_deg = i*10
+			min = PSD[i]
+		}
+		Delay(100)
+	}
+	ServoWrite(13, 90)
+	Delay(200)
+}
+
+int TURN()
+{
+	if (min_deg>90)
+	{
+		left = -200
+		right = 200
+		Enc_num = map(min_deg-90, 0, 90, 0 , 15)
+	}
+	else
+	{
+		left = 200
+		right = -200
+		Enc_num = map(90-min_deg, 0, 90, 0, 15)
+	}
+	return Enc_num
+}
+
+
+
+void Encoder_str()
+{
+	count_left = 0
+	count_right = 0
+	DriveWrite(left, right)
+	
+	for (int i = 0; i<100; i++)
+	{
+		d_left = DigitalRead(2)
+		d_right = DigitalRead(3)
+		if (d_left != state_left)
+		{
+			count_left = count_left+1
+			state_left = d_left
+		}
+		if (d_right!=state_right)
+		{
+			count_right = count_right+1
+			state_right = d_right
+		}
+		Delay(5)
+	}
+	if (  count_left>count_right )
+	{
+		left = left-5
+		right = right+5
+	}
+	else if (count_left<count_right)
+	{
+	left = left+5
+	right = right-5
+	}
+	}
+
+void Encoder_rot(int left, int right, int Enc_num)
+{
+	count_left = 0
+	count_right = 0
+	while (left!=0 ||right !=0)
+	{
+		d_left = DigitalRead(2)
+		d_right = DigitalRead(3)
+		if (d_left!=state_left)
+		{
+			count_left = count_left+1
+			state_left = d_left
+			if ( count_left > Enc_num  )
+			{
+				left = 0
+			}
+		}
+		if (d_right !=state_right)
+		{
+			count_right = count_right+1
+			state_right = d_right
+			if ( count_right > Enc_num )
+			{
+			right = 0
+			}
+		}
+		DriveWrite(left,right)
+		Delay(5)
+		}
+	}
+
+	void loop()
+	{
+		s = AnalogRead(0)
+		if ( s < 300)
+		{
+			Encoder_str()
+		}
+		else
+		{
+			MIN()
+			TURN()
+			Encoder_rot(Enc_num)
+			Left = 200
+			Right = 200
+		}
+	}
+

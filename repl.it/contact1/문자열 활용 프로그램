@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	int idx = 0;
+	char str[51];
+	gets(str);
+	while (str[idx] != '\0') 
+  {
+		idx++;
+	}
+	while (idx > 0) 
+  {
+		printf("%c", str[--idx]);
+	}
+	return 0;
+}

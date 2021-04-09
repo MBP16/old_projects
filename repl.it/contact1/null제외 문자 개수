@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  int count = 0;
+  char str[100];
+  gets(str);
+  for(int i = 0 ; str[i]!= '\0' ; i++)
+  {
+    count++;
+  }
+  printf("%d", count);
+  return 0;
+}

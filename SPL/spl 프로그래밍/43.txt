@@ -1,0 +1,32 @@
+﻿b=0
+c=0
+d=0
+
+void setup()
+{
+	LcdHome()
+	LcdClear()
+	LcdBackLight()
+}
+
+void loop()
+{
+	a = AnalogRead(0)
+	for (p = 1; p <= 30000; p=p+1)
+	{
+		for (q = 1; q <= 59; q=q+1)
+		{
+			for (r = 1; r <= 59; r=r+1)
+			{
+				LcdClear()
+				LcdHome()
+				LcdPrint(p)
+				LcdPrint(r)
+				LcdPrint(":")
+				LcdPrint(q)
+				LcdPrint(":")
+				Delay(1000)
+			}
+		}
+	}
+}

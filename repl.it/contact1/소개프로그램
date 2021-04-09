@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  printf("안녕? 반가워\n");
+  printf("나는\t철수야.\n");
+  return 0;
+}

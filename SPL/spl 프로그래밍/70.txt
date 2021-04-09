@@ -1,0 +1,26 @@
+﻿
+
+void line(int a)
+{
+   for(i=a;i<a+8;i++)
+     {
+	    NSSetColor(i,255,0,0)
+		NSShow()
+	 }
+}
+
+void setup()
+{
+	NSBegin(64,2)
+}
+
+void loop()
+{
+	for(int a =0;a<64;a=a+8)
+	  {
+	     line(a)
+		 Delay(1000)
+		 NSClear()
+		 NSShow()
+	  }
+}

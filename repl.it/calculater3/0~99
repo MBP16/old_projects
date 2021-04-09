@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) 
+{
+  int i = 0;
+  int number[100];
+  for(i = 0 ; i < 100 ; i++)
+  {
+    number[i] = i;
+    printf("%d\n", number[i]);
+  }
+  return 0;
+}

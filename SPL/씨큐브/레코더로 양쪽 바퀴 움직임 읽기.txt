@@ -1,0 +1,38 @@
+int d2 = 0
+int state_d2 = 0
+int d3 = 0
+int state_d3 = 0
+long count_d2 = 0
+long count_d3 = 0
+
+void setup()
+{
+	LcdBackLight()
+	LcdClear()
+}
+
+void loop()
+{
+    DriveWrite(150,150)
+	LcdClear()
+	LcdHome()
+	d2 = DigitalRead(2)
+	d3 = DigitalRead(3)
+	if(d2 != state_d2)
+	{
+	    count_d2 = count_d2+1
+		state_d2 = d2
+	}
+    if(d3 != state_d3)
+	{
+	    count_d3 = count_d3+1
+		state_d3 = d3
+	}
+	LcdPrint("left:")
+	LcdPrint(count_d2/2)
+	LcdSetCursor(0, 1)
+	LcdPrint("right:")
+	LcdPrint(count_d3/2)
+	Delay(100)
+}
+	
