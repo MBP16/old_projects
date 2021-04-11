@@ -33,4 +33,4 @@ jobs:
           uses: actions/upload-artifact@v1
           with:
             name: app
-            path: /standard-procedure-of-math-and-science-android/app/build/outputs/apk/debug
+            path: standard-procedure-of-math-and-science-android/app/build/outputs/apk/debug
