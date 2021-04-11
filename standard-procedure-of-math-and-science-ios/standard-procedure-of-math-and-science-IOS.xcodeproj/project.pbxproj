@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CF9D46925622A8E00B3F1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D46825622A8E00B3F1AB /* AppDelegate.swift */; };
+		2CF9D46B25622A8E00B3F1AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D46A25622A8E00B3F1AB /* SceneDelegate.swift */; };
+		2CF9D46D25622A8E00B3F1AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D46C25622A8E00B3F1AB /* ViewController.swift */; };
+		2CF9D47025622A8E00B3F1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D46E25622A8E00B3F1AB /* Main.storyboard */; };
+		2CF9D47225622A8E00B3F1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D47125622A8E00B3F1AB /* Assets.xcassets */; };
+		2CF9D47525622A8E00B3F1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D47325622A8E00B3F1AB /* LaunchScreen.storyboard */; };
+		2CF9D48025622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D47F25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSTests.swift */; };
+		2CF9D48B25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9D48A25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSUITests.swift */; };
+		2CF9D4B125622E5800B3F1AB /* whenthemathisrequired.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D4AC25622E5700B3F1AB /* whenthemathisrequired.jpeg */; };
+		2CF9D4B225622E5800B3F1AB /* thelasttheoryofferma.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D4AD25622E5800B3F1AB /* thelasttheoryofferma.jpeg */; };
+		2CF9D4B325622E5800B3F1AB /* wonderfulscience.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D4AE25622E5800B3F1AB /* wonderfulscience.jpeg */; };
+		2CF9D4B425622E5800B3F1AB /* cosmos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D4AF25622E5800B3F1AB /* cosmos.jpeg */; };
+		2CF9D4B525622E5800B3F1AB /* gunsgermssteel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF9D4B025622E5800B3F1AB /* gunsgermssteel.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CF9D47C25622A8E00B3F1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF9D45D25622A8E00B3F1AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF9D46425622A8E00B3F1AB;
+			remoteInfo = "standard-procedure-of-math-and-science-IOS";
+		};
+		2CF9D48725622A8E00B3F1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF9D45D25622A8E00B3F1AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF9D46425622A8E00B3F1AB;
+			remoteInfo = "standard-procedure-of-math-and-science-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CF9D46525622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "standard-procedure-of-math-and-science-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF9D46825622A8E00B3F1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CF9D46A25622A8E00B3F1AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CF9D46C25622A8E00B3F1AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CF9D46F25622A8E00B3F1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CF9D47125622A8E00B3F1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CF9D47425622A8E00B3F1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CF9D47625622A8E00B3F1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF9D47B25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "standard-procedure-of-math-and-science-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF9D47F25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standard_procedure_of_math_and_science_IOSTests.swift; sourceTree = "<group>"; };
+		2CF9D48125622A8E00B3F1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF9D48625622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "standard-procedure-of-math-and-science-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF9D48A25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standard_procedure_of_math_and_science_IOSUITests.swift; sourceTree = "<group>"; };
+		2CF9D48C25622A8E00B3F1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF9D4AC25622E5700B3F1AB /* whenthemathisrequired.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whenthemathisrequired.jpeg; sourceTree = "<group>"; };
+		2CF9D4AD25622E5800B3F1AB /* thelasttheoryofferma.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thelasttheoryofferma.jpeg; sourceTree = "<group>"; };
+		2CF9D4AE25622E5800B3F1AB /* wonderfulscience.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wonderfulscience.jpeg; sourceTree = "<group>"; };
+		2CF9D4AF25622E5800B3F1AB /* cosmos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cosmos.jpeg; sourceTree = "<group>"; };
+		2CF9D4B025622E5800B3F1AB /* gunsgermssteel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gunsgermssteel.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF9D46225622A8E00B3F1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D47825622A8E00B3F1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D48325622A8E00B3F1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF9D45C25622A8E00B3F1AB = {
+			isa = PBXGroup;
+			children = (
+				2CF9D46725622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS */,
+				2CF9D47E25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests */,
+				2CF9D48925622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests */,
+				2CF9D46625622A8E00B3F1AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF9D46625622A8E00B3F1AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9D46525622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS.app */,
+				2CF9D47B25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests.xctest */,
+				2CF9D48625622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF9D46725622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9D49B25622E2200B3F1AB /* 사진 */,
+				2CF9D46825622A8E00B3F1AB /* AppDelegate.swift */,
+				2CF9D46A25622A8E00B3F1AB /* SceneDelegate.swift */,
+				2CF9D46C25622A8E00B3F1AB /* ViewController.swift */,
+				2CF9D46E25622A8E00B3F1AB /* Main.storyboard */,
+				2CF9D47125622A8E00B3F1AB /* Assets.xcassets */,
+				2CF9D47325622A8E00B3F1AB /* LaunchScreen.storyboard */,
+				2CF9D47625622A8E00B3F1AB /* Info.plist */,
+			);
+			path = "standard-procedure-of-math-and-science-IOS";
+			sourceTree = "<group>";
+		};
+		2CF9D47E25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9D47F25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSTests.swift */,
+				2CF9D48125622A8E00B3F1AB /* Info.plist */,
+			);
+			path = "standard-procedure-of-math-and-science-IOSTests";
+			sourceTree = "<group>";
+		};
+		2CF9D48925622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9D48A25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSUITests.swift */,
+				2CF9D48C25622A8E00B3F1AB /* Info.plist */,
+			);
+			path = "standard-procedure-of-math-and-science-IOSUITests";
+			sourceTree = "<group>";
+		};
+		2CF9D49B25622E2200B3F1AB /* 사진 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF9D4AF25622E5800B3F1AB /* cosmos.jpeg */,
+				2CF9D4B025622E5800B3F1AB /* gunsgermssteel.jpeg */,
+				2CF9D4AD25622E5800B3F1AB /* thelasttheoryofferma.jpeg */,
+				2CF9D4AC25622E5700B3F1AB /* whenthemathisrequired.jpeg */,
+				2CF9D4AE25622E5800B3F1AB /* wonderfulscience.jpeg */,
+			);
+			name = "사진";
+			path = "사진";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF9D46425622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF9D48F25622A8E00B3F1AB /* Build configuration list for PBXNativeTarget "standard-procedure-of-math-and-science-IOS" */;
+			buildPhases = (
+				2CF9D46125622A8E00B3F1AB /* Sources */,
+				2CF9D46225622A8E00B3F1AB /* Frameworks */,
+				2CF9D46325622A8E00B3F1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "standard-procedure-of-math-and-science-IOS";
+			productName = "standard-procedure-of-math-and-science-IOS";
+			productReference = 2CF9D46525622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CF9D47A25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF9D49225622A8E00B3F1AB /* Build configuration list for PBXNativeTarget "standard-procedure-of-math-and-science-IOSTests" */;
+			buildPhases = (
+				2CF9D47725622A8E00B3F1AB /* Sources */,
+				2CF9D47825622A8E00B3F1AB /* Frameworks */,
+				2CF9D47925622A8E00B3F1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF9D47D25622A8E00B3F1AB /* PBXTargetDependency */,
+			);
+			name = "standard-procedure-of-math-and-science-IOSTests";
+			productName = "standard-procedure-of-math-and-science-IOSTests";
+			productReference = 2CF9D47B25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CF9D48525622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF9D49525622A8E00B3F1AB /* Build configuration list for PBXNativeTarget "standard-procedure-of-math-and-science-IOSUITests" */;
+			buildPhases = (
+				2CF9D48225622A8E00B3F1AB /* Sources */,
+				2CF9D48325622A8E00B3F1AB /* Frameworks */,
+				2CF9D48425622A8E00B3F1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF9D48825622A8E00B3F1AB /* PBXTargetDependency */,
+			);
+			name = "standard-procedure-of-math-and-science-IOSUITests";
+			productName = "standard-procedure-of-math-and-science-IOSUITests";
+			productReference = 2CF9D48625622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF9D45D25622A8E00B3F1AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2CF9D46425622A8E00B3F1AB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2CF9D47A25622A8E00B3F1AB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2CF9D46425622A8E00B3F1AB;
+					};
+					2CF9D48525622A8E00B3F1AB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2CF9D46425622A8E00B3F1AB;
+					};
+				};
+			};
+			buildConfigurationList = 2CF9D46025622A8E00B3F1AB /* Build configuration list for PBXProject "standard-procedure-of-math-and-science-IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CF9D45C25622A8E00B3F1AB;
+			productRefGroup = 2CF9D46625622A8E00B3F1AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF9D46425622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS */,
+				2CF9D47A25622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSTests */,
+				2CF9D48525622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CF9D46325622A8E00B3F1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF9D4B125622E5800B3F1AB /* whenthemathisrequired.jpeg in Resources */,
+				2CF9D4B325622E5800B3F1AB /* wonderfulscience.jpeg in Resources */,
+				2CF9D4B425622E5800B3F1AB /* cosmos.jpeg in Resources */,
+				2CF9D4B225622E5800B3F1AB /* thelasttheoryofferma.jpeg in Resources */,
+				2CF9D47525622A8E00B3F1AB /* LaunchScreen.storyboard in Resources */,
+				2CF9D47225622A8E00B3F1AB /* Assets.xcassets in Resources */,
+				2CF9D47025622A8E00B3F1AB /* Main.storyboard in Resources */,
+				2CF9D4B525622E5800B3F1AB /* gunsgermssteel.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D47925622A8E00B3F1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D48425622A8E00B3F1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF9D46125622A8E00B3F1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF9D46D25622A8E00B3F1AB /* ViewController.swift in Sources */,
+				2CF9D46925622A8E00B3F1AB /* AppDelegate.swift in Sources */,
+				2CF9D46B25622A8E00B3F1AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D47725622A8E00B3F1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF9D48025622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D48225622A8E00B3F1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF9D48B25622A8E00B3F1AB /* standard_procedure_of_math_and_science_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF9D47D25622A8E00B3F1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF9D46425622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS */;
+			targetProxy = 2CF9D47C25622A8E00B3F1AB /* PBXContainerItemProxy */;
+		};
+		2CF9D48825622A8E00B3F1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF9D46425622A8E00B3F1AB /* standard-procedure-of-math-and-science-IOS */;
+			targetProxy = 2CF9D48725622A8E00B3F1AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CF9D46E25622A8E00B3F1AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF9D46F25622A8E00B3F1AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CF9D47325622A8E00B3F1AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF9D47425622A8E00B3F1AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CF9D48D25622A8E00B3F1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CF9D48E25622A8E00B3F1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF9D49025622A8E00B3F1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "standard-procedure-of-math-and-science-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hyunwoo6321.standard-procedure-of-math-and-science-IOS.standard-procedure-of-math-and-science-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF9D49125622A8E00B3F1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "standard-procedure-of-math-and-science-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hyunwoo6321.standard-procedure-of-math-and-science-IOS.standard-procedure-of-math-and-science-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CF9D49325622A8E00B3F1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "standard-procedure-of-math-and-science-IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hyunwoo6321.standard-procedure-of-math-and-science-IOS.standard-procedure-of-math-and-science-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/standard-procedure-of-math-and-science-IOS.app/standard-procedure-of-math-and-science-IOS";
+			};
+			name = Debug;
+		};
+		2CF9D49425622A8E00B3F1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "standard-procedure-of-math-and-science-IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hyunwoo6321.standard-procedure-of-math-and-science-IOS.standard-procedure-of-math-and-science-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/standard-procedure-of-math-and-science-IOS.app/standard-procedure-of-math-and-science-IOS";
+			};
+			name = Release;
+		};
+		2CF9D49625622A8E00B3F1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "standard-procedure-of-math-and-science-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hyunwoo6321.standard-procedure-of-math-and-science-IOS.standard-procedure-of-math-and-science-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "standard-procedure-of-math-and-science-IOS";
+			};
+			name = Debug;
+		};
+		2CF9D49725622A8E00B3F1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "standard-procedure-of-math-and-science-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.hyunwoo6321.standard-procedure-of-math-and-science-IOS.standard-procedure-of-math-and-science-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "standard-procedure-of-math-and-science-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF9D46025622A8E00B3F1AB /* Build configuration list for PBXProject "standard-procedure-of-math-and-science-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF9D48D25622A8E00B3F1AB /* Debug */,
+				2CF9D48E25622A8E00B3F1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF9D48F25622A8E00B3F1AB /* Build configuration list for PBXNativeTarget "standard-procedure-of-math-and-science-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF9D49025622A8E00B3F1AB /* Debug */,
+				2CF9D49125622A8E00B3F1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF9D49225622A8E00B3F1AB /* Build configuration list for PBXNativeTarget "standard-procedure-of-math-and-science-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF9D49325622A8E00B3F1AB /* Debug */,
+				2CF9D49425622A8E00B3F1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF9D49525622A8E00B3F1AB /* Build configuration list for PBXNativeTarget "standard-procedure-of-math-and-science-IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF9D49625622A8E00B3F1AB /* Debug */,
+				2CF9D49725622A8E00B3F1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CF9D45D25622A8E00B3F1AB /* Project object */;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scientorybyphjstudio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="수과학의 정석"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="수과학의 정석"
+            android:theme="@style/책목록" />
+        <activity
+            android:name=".thelasttheoryofferma"
+            android:label="페르마의 마지막 정리"
+            android:theme="@style/책목록" />
+        <activity
+            android:name=".wonderfulscience"
+            android:label="원더풀 사이언스"
+            android:theme="@style/책목록" />
+        <activity
+            android:name=".whenthemathisrequired"
+            android:label="수학이 필요한 순간"
+            android:theme="@style/책목록" />
+        <activity
+            android:name=".gunsgermssteel"
+            android:label="총, 균, 쇠"
+            android:theme="@style/책목록" />
+        <activity
+            android:name=".cosmos"
+            android:label="코스모스"
+            android:theme="@style/책목록" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
