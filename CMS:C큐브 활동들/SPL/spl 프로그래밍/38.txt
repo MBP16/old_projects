@@ -1,0 +1,30 @@
+﻿
+
+void setup()
+{
+	
+}
+L=0
+void loop()
+{
+	d0 = DigitalRead(2)
+    if (d0==1)
+     	{
+		L=L+1
+		if ( L>255 )
+	     	{
+			    L=255
+			}
+				}
+		else
+		{
+		    L=L-1
+			if (L<0  )
+               {
+	               L=0
+                }
+				}
+ 	AnalogWrite(3, L)
+	PrintLine(L)			
+	Delay(50)  
+}

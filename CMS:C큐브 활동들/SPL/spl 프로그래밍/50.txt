@@ -1,0 +1,37 @@
+﻿
+float v1=0
+float v2=0
+void setup()
+{
+	
+}
+
+void loop()
+{
+	a= AnalogRead(0)
+	if (a>=950&&a<=970)
+	{
+		v1=v1+0.1
+	}
+	if (a>=870&&a<=890)
+	{
+		v1=v1-0.1
+	}
+	if (a>=500&&a<=520)
+	{
+		v2=v2+0.1
+	}
+	if (a>=670&&a<=690)
+	{
+		v2=v2-0.1
+	}
+	if (a>=760&&a<=780)
+	{
+	  Print("(")
+	  Print(v1)
+	  Print(",")
+	  Print(v2)
+	  PrintLine(")")
+	}
+	Delay(500)
+}

@@ -1,0 +1,15 @@
+﻿
+void setup()
+{
+	LcdBackLight()
+}
+
+void loop()
+{
+	for (m = 840; m >= 0; m=m-1)
+	{
+		m=a
+		LcdPrint(a)
+		Delay(1000)
+	}
+}

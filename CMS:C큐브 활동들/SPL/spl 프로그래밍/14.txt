@@ -1,0 +1,15 @@
+﻿
+void setup()
+{
+	NSBegin(8, 3)
+	NSClear()
+}
+
+void loop()
+{
+	for (i = 0; i <= 7; i=i+1)
+	{
+		NSSetColor(i, 0, 0, 0)
+		NSShow()
+	}
+}

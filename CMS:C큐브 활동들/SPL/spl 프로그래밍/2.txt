@@ -1,0 +1,11 @@
+﻿
+void setup()
+{
+}
+
+void loop()
+{
+	a = AnalogRead(0)
+	PrintLine(a)
+	Delay(1000)
+}

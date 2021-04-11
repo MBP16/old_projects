@@ -1,0 +1,23 @@
+﻿
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+	a=random(9)
+	b=random(9)
+	c=random(9)
+	d=random(9)
+	e=random(9)
+	f=random(9)
+	Print(a)
+	Print(b)
+	Print(c)
+	Print(d)
+	Print(e)
+	PrintLine(f)
+	Delay(1000)
+}

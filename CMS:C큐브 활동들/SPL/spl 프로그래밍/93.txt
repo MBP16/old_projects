@@ -1,0 +1,36 @@
+﻿int px[8]
+int py[8]
+int F[14]={660,660,524,660,784,392,524,392,328,440,492,466,440,392}
+int f=-1
+void playsound()
+{
+	f=f+1
+	f=f%14
+	Tone(9,F[f],80)
+	Delay(100)
+}
+void setup()
+{
+	for(i=0;i<8;i=i+1)
+	{
+		px[i]=random(8)
+		py[i]=-1-i
+	}
+}
+void loop()
+{
+	for(int i=0;i<=7;i=i+1)
+	{
+		py[i]=py[i]+1
+		if(py[i]>7)
+		{
+			py[i]=0
+			py[i]=random(8)
+		}
+			MatrixDrawPixel(px[i],py[i],LED_RED)
+			Delay(100)
+	}
+	MatrixWriteDisplay()
+	playsound()
+	MatrixClear()
+}

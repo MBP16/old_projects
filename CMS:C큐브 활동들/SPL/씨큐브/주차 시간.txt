@@ -1,0 +1,24 @@
+long in = 0
+long out = 0
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+	d2 = DigitalRead(2)
+	d3 = DigitalRead(3)
+	if(d2 == 1)
+	{
+		in = millis()
+	}
+	else if(d3 == 1)
+	{
+		out = ( millis() - in ) / 60000
+		Print ("Your Parking Time Is : ")
+		Print(out)
+		PrintLine ("minutes")
+	}
+}

@@ -1,0 +1,24 @@
+﻿
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+    X=random(3)
+	if(X==0)
+	  {
+	      PrintLine("GA")
+	  }
+    if(X==1)
+	 {
+	     PrintLine("BA")
+	 }
+    if(X==2)
+	 {
+	     PrintLine("BO")
+	 }
+    Delay(1000)
+}

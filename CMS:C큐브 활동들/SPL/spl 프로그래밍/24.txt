@@ -1,0 +1,26 @@
+﻿
+void setup()
+{
+}
+
+void loop()
+{
+	ServoWrite(2, 90)
+	a0 = AnalogRead(0)
+	a1 = AnalogRead(5)
+	if (a0-a1>30||a1-a0>30)
+	{
+		if (a0>a1)
+		{
+			i=(a0-a1)/4
+			ServoWrite(2, 90+i)
+			Delay(300)
+		}
+		else
+		{
+			j=(a1-a0)/4
+			ServoWrite(2, 90-j)
+			Delay(300)
+		}
+	}
+}

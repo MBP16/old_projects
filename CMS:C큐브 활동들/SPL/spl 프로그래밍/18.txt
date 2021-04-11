@@ -1,0 +1,25 @@
+﻿
+void setup()
+{
+	NSBegin(8, 2)
+	NSClear()
+}
+
+void loop()
+{
+	for (i = 0; i <= 3; i=i+1)
+	{
+		NSSetColor(i, 255, 0, 0)
+		NSSetColor(7-i, 255, 0, 0)
+		NSShow()
+		Delay(100)
+	}
+	Delay(100)
+	for (j = 3; j >= 0; j=j-1)
+	{
+		NSSetColor(j, 0, 0, 0)
+		NSSetColor(7-j, 0, 0, 0)
+		NSShow()
+		Delay(100)
+	}
+}

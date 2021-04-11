@@ -1,0 +1,17 @@
+﻿
+ void Fourtimes(int b)
+{
+    int a =(4*b) +1
+	PrintLine(a)
+}
+
+
+void setup()
+{
+   Fourtimes(278)
+}
+
+ void loop()
+  {
+
+  }

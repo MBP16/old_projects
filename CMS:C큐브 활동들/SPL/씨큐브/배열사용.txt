@@ -1,0 +1,19 @@
+int sample[10] = {45,78,23,99,51,71,63,84,39,91}
+int min = 10000
+
+void setup()
+{
+	for(int i = 0;i < 10 ; i++)
+	 {
+	     if(sample[i]<min)
+		  {
+		      sample[i]=min
+		  }
+	 }
+	 PrintLine(min)
+}
+
+void loop()
+{
+	
+}

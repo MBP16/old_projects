@@ -1,0 +1,25 @@
+﻿
+
+void setup()
+{
+	LcdBackLight()
+	LcdClear()
+}
+long b=1
+long c=1
+void loop()
+{
+	a= AnalogRead(0)
+	if(a>950&&a<970)
+	 {
+	    c=c+1
+		b=b*2
+     }
+  LcdClear()
+  LcdHome()
+  LcdClear()
+  LcdPrint(c)
+  LcdSetCursor(0,1)
+  LcdPrint(b)
+  Delay(100)
+}

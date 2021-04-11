@@ -1,0 +1,22 @@
+﻿
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+     a=1
+     for (i = 2; i>0; i=i+1)
+     {   
+		 Print(a)
+         Print("+")
+		 Print(i)
+		 Print("=")
+		 a=a+i
+		 PrintLine(a)
+         Delay(1000)
+     }
+	
+}

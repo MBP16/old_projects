@@ -1,0 +1,33 @@
+﻿int A[5] = {35,40,42,59,47}
+int B[5] = {37,50,40,58,60}
+int a = 0
+int b =0
+
+void setup()
+{
+	for(i=0;i<=4;i=i+1)
+	  {
+	      if(A[i]>B[i])
+		   {
+		       a=a+1
+		   }
+		  else
+		     {
+			     b=b+1
+			 }
+	  }
+	  Print("Winner is")
+	  if(a>b)
+	   {
+	       PrintLine("A")
+	   }
+	  else
+	      {
+		      PrintLine("B")
+		  }
+}
+
+void loop()
+{
+	
+}

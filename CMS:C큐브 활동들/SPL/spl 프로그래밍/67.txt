@@ -1,0 +1,22 @@
+﻿
+
+void setup()
+{
+	NSBegin(64, 2)
+}
+
+void loop()
+{
+    NSSetAllColor(120, 0, 0)
+	NSShow()    
+	Delay(1000)
+	NSSetAllColor(120, 120, 0)
+	NSShow()    
+	Delay(1000)
+    NSSetAllColor(0, 120, 0)
+	NSShow()    
+	Delay(1000)
+	NSSetAllColor(120, 120, 0)
+    NSShow()    
+	Delay(1000)
+}

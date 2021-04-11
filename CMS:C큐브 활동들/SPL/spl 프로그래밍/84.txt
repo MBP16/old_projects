@@ -1,0 +1,11 @@
+﻿#include<analogKeyPad.h>
+
+void loop()
+{
+   int a =  KeyPad(0)
+   if (a>-2)
+   {
+       PrintLine(a)
+   }
+   Delay(200)
+}

@@ -1,0 +1,85 @@
+﻿AddBox  base
+AddSphere  sp1
+	/Position:0  0  5
+	/Scale:1  1  1
+Subtract base = sp1 [From] base
+AddSphere  sp2
+	/Scale:1  1  1
+	/Position:5  3  3
+Subtract base   = sp2 [From] base  
+AddSphere  sp3
+	/Scale:1  1  1
+	/Position:5  -3  -3
+Subtract base  = sp3 [From] base 
+AddSphere  sp4
+	/Scale:1  1  1
+	/Position:0  -5  0
+Subtract base   = sp4 [From] base  
+AddSphere  sp5
+	/Scale:1  1  1
+	/Position:3  -5  3
+Subtract base    = sp5 [From] base   
+AddSphere  sp6
+	/Scale:1  1  1
+	/Position:-3  -5  -3
+Subtract base     = sp6 [From] base    
+AddSphere  sp7
+	/Scale:1  1  1
+	/Position:3  5  3
+Subtract base      = sp7 [From] base     
+AddSphere  sp8
+	/Scale:1  1  1
+	/Position:-3  5  -3
+Subtract base       = sp8 [From] base      
+AddSphere  sp9
+	/Scale:1  1  1
+	/Position:3  5  -3
+Subtract base       = sp9 [From] base      
+AddSphere  sp10
+	/Scale:1  1  1
+	/Position:-3  5  3
+Subtract base        = sp10 [From] base       
+AddSphere  sp11
+	/Scale:1  1  1
+	/Position:-5  0  0
+Subtract base         = sp11 [From] base        
+AddSphere  sp12
+	/Scale:1  1  1
+	/Position:-5  3  3
+Subtract base         = sp12 [From] base        
+AddSphere  sp13
+	/Scale:1  1  1
+	/Position:-5  -3  3
+Subtract base          = sp13 [From] base         
+AddSphere  sp14
+	/Scale:1  1  1
+	/Position:-5  -3  -3
+Subtract base           = sp14 [From] base          
+AddSphere  sp15
+	/Scale:1  1  1
+	/Position:-5  3  -3
+Subtract base            = sp15 [From] base           
+AddSphere  sp16
+	/Scale:1  1  1
+	/Position:-3  -3  -5
+Subtract base             = sp16 [From] base            
+AddSphere  sp17
+	/Scale:1  1  1
+	/Position:-3  0  -5
+Subtract base              = sp17 [From] base             
+AddSphere  sp18
+	/Scale:1  1  1
+	/Position:-3  3  -5
+Subtract base               = sp18 [From] base              
+AddSphere  sp19
+	/Scale:1  1  1
+	/Position:3  3  -5
+Subtract base                = sp19 [From] base               
+AddSphere  sp20
+	/Scale:1  1  1
+	/Position:3  0  -5
+Subtract base                 = sp20 [From] base                
+AddSphere  sp21
+	/Scale:1  1  1
+	/Position:3  -3  -5
+Subtract base                  = sp21 [From] base                 

@@ -1,0 +1,23 @@
+﻿
+
+void setup()
+{
+	
+}
+
+void loop()
+{
+	for (i = 0; i < 255; i=i+1)
+	{
+		AnalogWrite(3, i)
+		PrintLine(i)
+	Delay(100)
+	}
+	for (j = 255; j > 0; j=j-1)
+	{
+	    AnalogWrite(3, j)
+		PrintLine(j)
+		Delay(100)
+	}
+	
+}

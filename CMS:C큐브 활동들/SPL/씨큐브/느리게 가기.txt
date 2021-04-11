@@ -1,0 +1,14 @@
+
+
+void setup()
+{
+	
+}
+
+void loop()
+{               
+    DriveWrite(100,150)
+	Delay(50)
+	DriveWrite(0,0)
+	Delay(45)
+}

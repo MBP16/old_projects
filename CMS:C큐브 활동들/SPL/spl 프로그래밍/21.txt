@@ -1,0 +1,29 @@
+﻿
+void setup()
+{
+}
+
+void loop()
+{
+	a0 = AnalogRead(0)
+	a1 = AnalogRead(1)
+	if (a0+a1>1500)
+	{
+		if (a0>a1)
+		{
+			Tone(2, 1000, 1000)
+			Delay(1000)
+		}
+		else
+		{
+			Tone(2, 1000, 1000)
+			Delay(1000)
+		}
+	}
+	else
+	{
+		Tone(2, 0, 1000)
+		Delay(1000)
+	}
+	Delay(500)
+}

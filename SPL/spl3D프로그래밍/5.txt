@@ -1,7 +1,0 @@
-﻿for (i = 1; i <= 60; i=i+1)
-{
-	AddCylinder  s{i}
-##		/Scale:10  50  2
-##		/Orientation:0  0  {12*i}
-	Union s{i} = s{i-1} [And] s{i}
-}
