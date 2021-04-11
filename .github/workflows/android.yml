@@ -1,0 +1,36 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ android ]
+  pull_request:
+    branches: [ android ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Build with Gradle
+      run: cd standard-procedure-of-math-and-science-android;chmod +x gradlew;sudo ./gradlew build
+  apk:
+      name: Generate APK
+      runs-on: ubuntu-latest
+
+      steps:
+        - uses: actions/checkout@v1
+        - name: set up JDK 1.8
+          uses: actions/setup-java@v1
+          with:
+            java-version: 1.8
+        - name: Build debug APK
+          run: cd standard-procedure-of-math-and-science-android;bash ./gradlew assembleDebug --stacktrace
+        - name: Upload APK
+          uses: actions/upload-artifact@v1
+          with:
+            name: app
+            path: /standard-procedure-of-math-and-science-android/app/build/outputs/apk/debug
