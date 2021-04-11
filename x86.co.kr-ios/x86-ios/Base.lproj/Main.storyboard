@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17124"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="x86_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YE7-0d-RdC">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="gay-83-ePT"/>
+                                    <barButtonItem title="Item" image="house.fill" catalog="system" landscapeImage="house.fill" largeContentSizeImage="house.fill" id="HCb-Y7-KXd">
+                                        <connections>
+                                            <action selector="Home:" destination="BYZ-38-t0r" id="PTR-D0-bAH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OSb-wO-9MW"/>
+                                    <barButtonItem title="Item" image="arrow.clockwise" catalog="system" id="VNm-W0-Itt">
+                                        <connections>
+                                            <action selector="reload:" destination="BYZ-38-t0r" id="TYG-gV-uTR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JVw-oF-TTg"/>
+                                    <barButtonItem title="Item" image="multiply" catalog="system" id="4nP-S4-Eqk">
+                                        <connections>
+                                            <action selector="cancelreload:" destination="BYZ-38-t0r" id="Fn4-VN-NK2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="R9p-hu-jMK"/>
+                                    <barButtonItem title="Item" image="arrow.backward" catalog="system" id="7cm-N1-Dm5">
+                                        <connections>
+                                            <action selector="Back:" destination="BYZ-38-t0r" id="2Gr-dN-bIF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XFA-KR-SX8"/>
+                                    <barButtonItem title="Item" image="arrow.forward" catalog="system" id="DaV-4S-mJa">
+                                        <connections>
+                                            <action selector="forward:" destination="BYZ-38-t0r" id="dii-Ql-MgL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qrp-6w-JIb"/>
+                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="RSS-eF-Yux">
+                                        <connections>
+                                            <action selector="personalinfo:" destination="BYZ-38-t0r" id="z5T-QT-ZkR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tI8-1F-CyS"/>
+                                </items>
+                            </toolbar>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJ0-7c-Boc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="774"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="YoP-RH-hXa">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YoP-RH-hXa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3x0-xc-z9A"/>
+                            <constraint firstItem="YE7-0d-RdC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5HS-bG-unr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AJ0-7c-Boc" secondAttribute="trailing" id="Prx-9J-R34"/>
+                            <constraint firstItem="YE7-0d-RdC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UWj-ZD-0nx"/>
+                            <constraint firstItem="YoP-RH-hXa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fqv-ya-izx"/>
+                            <constraint firstItem="AJ0-7c-Boc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gz6-aa-9zW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AJ0-7c-Boc" secondAttribute="bottom" constant="44" id="kqR-Vd-dAS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YE7-0d-RdC" secondAttribute="bottom" id="o1Z-vb-Iln"/>
+                            <constraint firstItem="YE7-0d-RdC" firstAttribute="top" secondItem="AJ0-7c-Boc" secondAttribute="bottom" id="q8D-F3-xai"/>
+                            <constraint firstItem="AJ0-7c-Boc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rOF-ug-M0P"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loading" destination="YoP-RH-hXa" id="p1M-7Q-O2R"/>
+                        <outlet property="webview" destination="AJ0-7c-Boc" id="2DB-Eb-Utb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="124"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
+        <image name="arrow.forward" catalog="system" width="128" height="98"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="multiply" catalog="system" width="128" height="111"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
