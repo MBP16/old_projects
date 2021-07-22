@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/4d07a31467740f440079ccf6a3cadca6/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e0a383425a4dbe7bfeb4a1ad1b79c5d9/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/15217b0115168667ade3e87a8bccb80f/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/a7bf45d2f67b0ac72c653455af6d34ac/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3e0227170892ea3cf4ab8b9e9849f134/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/b6cab18fe00453921078fb49cc3b6506/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/69195ea3ef2d204725bb39c32edd4a4c/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/f91323949cf745f2d1f15fa33f3e9228/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/6ba6182944b27aae99da4146a882d5fb/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/c435933c3738044b9fc0a71b54fe15ca/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8f3818a6493c3e0ab24b8aa1e804be08/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e8ad276c9dd06731a9726e1208b0dd92/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/7665bd23c485177e9ef2ca6a105e76a2/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/fa4327731ed7366e27d3766220f29a2c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/d37c0d9ea275ab55750e609a28f4581f/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e744d8318f3ef2e0063e81e1b86ef468/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/ebcc120d80ee51e8ab15a57c89e93474/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/848e2050eb419276e55fff4d8d7c761a/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8a5b239d64006f5c0cac579f31578e8a/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/caf6a9ca85ee110bb0282c18ba493b84/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/b2cec8d206bab25e06e4ae8a173a5757/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/93f40fdc2df664dd89ca03c520bc70ba/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/76a1f8f207b02cf4a363597143b0dbbc/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/946c5ba558cb2d411dfa0a8146877267/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3415761783672db02398702471e11cb5/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/efe6c993229c4a808d1c9f5e7c3750b3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/2675826152edb808ca987a48cd17e4b8/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3194fc87b8216cece43142642c032d39/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/65c08d26b07675352907a18341498bef/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/d4f6f8c760f19a921deb10c12a9e575b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/850d33ad3d9a86076106fdae07007bed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:5:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:9:5-31:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e0a383425a4dbe7bfeb4a1ad1b79c5d9/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e0a383425a4dbe7bfeb4a1ad1b79c5d9/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/15217b0115168667ade3e87a8bccb80f/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/15217b0115168667ade3e87a8bccb80f/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3e0227170892ea3cf4ab8b9e9849f134/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3e0227170892ea3cf4ab8b9e9849f134/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8a5b239d64006f5c0cac579f31578e8a/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8a5b239d64006f5c0cac579f31578e8a/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/93f40fdc2df664dd89ca03c520bc70ba/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/93f40fdc2df664dd89ca03c520bc70ba/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/946c5ba558cb2d411dfa0a8146877267/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/946c5ba558cb2d411dfa0a8146877267/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8a5b239d64006f5c0cac579f31578e8a/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.example.classtimetable.MainActivity
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:20:27-74
+receiver#com.example.classtimetable.DeviceBootReceiver
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:23:9-28:20
+	android:enabled
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:24:19-42
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:23:19-53
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:25:13-27:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:26:17-79
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:26:25-76
+receiver#com.example.classtimetable.AlarmReceiver
+ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:30:9-51
+	android:name
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml:30:19-48
+uses-sdk
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/4d07a31467740f440079ccf6a3cadca6/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/4d07a31467740f440079ccf6a3cadca6/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e0a383425a4dbe7bfeb4a1ad1b79c5d9/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e0a383425a4dbe7bfeb4a1ad1b79c5d9/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/15217b0115168667ade3e87a8bccb80f/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/15217b0115168667ade3e87a8bccb80f/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/a7bf45d2f67b0ac72c653455af6d34ac/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/a7bf45d2f67b0ac72c653455af6d34ac/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3e0227170892ea3cf4ab8b9e9849f134/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3e0227170892ea3cf4ab8b9e9849f134/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/b6cab18fe00453921078fb49cc3b6506/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/b6cab18fe00453921078fb49cc3b6506/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/69195ea3ef2d204725bb39c32edd4a4c/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/69195ea3ef2d204725bb39c32edd4a4c/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/f91323949cf745f2d1f15fa33f3e9228/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/f91323949cf745f2d1f15fa33f3e9228/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/6ba6182944b27aae99da4146a882d5fb/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/6ba6182944b27aae99da4146a882d5fb/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/c435933c3738044b9fc0a71b54fe15ca/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/c435933c3738044b9fc0a71b54fe15ca/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8f3818a6493c3e0ab24b8aa1e804be08/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8f3818a6493c3e0ab24b8aa1e804be08/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e8ad276c9dd06731a9726e1208b0dd92/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e8ad276c9dd06731a9726e1208b0dd92/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/7665bd23c485177e9ef2ca6a105e76a2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/7665bd23c485177e9ef2ca6a105e76a2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/fa4327731ed7366e27d3766220f29a2c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/fa4327731ed7366e27d3766220f29a2c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/d37c0d9ea275ab55750e609a28f4581f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/d37c0d9ea275ab55750e609a28f4581f/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e744d8318f3ef2e0063e81e1b86ef468/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/e744d8318f3ef2e0063e81e1b86ef468/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/ebcc120d80ee51e8ab15a57c89e93474/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/ebcc120d80ee51e8ab15a57c89e93474/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/848e2050eb419276e55fff4d8d7c761a/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/848e2050eb419276e55fff4d8d7c761a/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8a5b239d64006f5c0cac579f31578e8a/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/8a5b239d64006f5c0cac579f31578e8a/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/caf6a9ca85ee110bb0282c18ba493b84/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/caf6a9ca85ee110bb0282c18ba493b84/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/b2cec8d206bab25e06e4ae8a173a5757/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/b2cec8d206bab25e06e4ae8a173a5757/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/93f40fdc2df664dd89ca03c520bc70ba/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/93f40fdc2df664dd89ca03c520bc70ba/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/76a1f8f207b02cf4a363597143b0dbbc/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/76a1f8f207b02cf4a363597143b0dbbc/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/946c5ba558cb2d411dfa0a8146877267/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/946c5ba558cb2d411dfa0a8146877267/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3415761783672db02398702471e11cb5/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3415761783672db02398702471e11cb5/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/efe6c993229c4a808d1c9f5e7c3750b3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/efe6c993229c4a808d1c9f5e7c3750b3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/2675826152edb808ca987a48cd17e4b8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/2675826152edb808ca987a48cd17e4b8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3194fc87b8216cece43142642c032d39/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/3194fc87b8216cece43142642c032d39/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/65c08d26b07675352907a18341498bef/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/65c08d26b07675352907a18341498bef/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/d4f6f8c760f19a921deb10c12a9e575b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/d4f6f8c760f19a921deb10c12a9e575b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/850d33ad3d9a86076106fdae07007bed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/850d33ad3d9a86076106fdae07007bed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/src/main/AndroidManifest.xml

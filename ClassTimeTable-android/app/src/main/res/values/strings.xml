@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClassTimeTable</string>
+    <string name="channel_name">noticing_class_times</string>
+    <string name="channel_description">to notice the class start/end times with sounds and notification</string>
+</resources>

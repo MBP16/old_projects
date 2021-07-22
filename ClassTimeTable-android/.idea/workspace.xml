@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_4" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="선택된 애플리케이션만 표시" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e4ca424-6bf2-48d8-88bf-0200f55a0d84" name="디폴트 변경 목록" comment="중간 저장">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/app_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/app_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugAndroidTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugAndroidTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugAndroidTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugAndroidTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/classtimetable/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/classtimetable/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/classtimetable/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/classtimetable/MainActivity.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="macos" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1qOOYw3N33GzMmdkZOWnIDqMeVi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$USER_HOME$/Downloads/Galaxy Wearable Samsung Gear_v2.2.38.21011861_apkpure.com.apk" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-08T12:18:22.623483Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1617383728701" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ClassTimeTable.app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ClassTimeTable.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="6e4ca424-6bf2-48d8-88bf-0200f55a0d84" name="디폴트 변경 목록" comment="" />
+      <created>1616947222904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616947222904</updated>
+      <workItem from="1616947226178" duration="118000" />
+      <workItem from="1617383567588" duration="7000" />
+      <workItem from="1617383606308" duration="1319000" />
+      <workItem from="1617410122976" duration="1037000" />
+      <workItem from="1617457844164" duration="434000" />
+      <workItem from="1617458288938" duration="540000" />
+      <workItem from="1617463122907" duration="791000" />
+      <workItem from="1617496145532" duration="3023000" />
+      <workItem from="1617605392252" duration="1450000" />
+      <workItem from="1617656701685" duration="69000" />
+      <workItem from="1617691780220" duration="2840000" />
+      <workItem from="1617713623467" duration="1044000" />
+      <workItem from="1617725599483" duration="437000" />
+      <workItem from="1617747832935" duration="507000" />
+      <workItem from="1617775317632" duration="870000" />
+      <workItem from="1617789797145" duration="10000" />
+      <workItem from="1617790000703" duration="30000" />
+      <workItem from="1617790051811" duration="6613000" />
+      <workItem from="1617836930665" duration="268000" />
+      <workItem from="1617861879950" duration="3394000" />
+      <workItem from="1617875928686" duration="5538000" />
+      <workItem from="1617896384772" duration="3389000" />
+      <workItem from="1617923519622" duration="40000" />
+      <workItem from="1617948750049" duration="351000" />
+      <workItem from="1617958517555" duration="1850000" />
+      <workItem from="1618012712629" duration="43000" />
+      <workItem from="1618014922367" duration="5551000" />
+      <workItem from="1618103724972" duration="341000" />
+      <workItem from="1618111869182" duration="3111000" />
+      <workItem from="1618212743094" duration="52000" />
+      <workItem from="1618212809659" duration="2016000" />
+      <workItem from="1618296960049" duration="886000" />
+      <workItem from="1618380394020" duration="759000" />
+      <workItem from="1618402508187" duration="1691000" />
+      <workItem from="1618466498600" duration="126000" />
+      <workItem from="1618469042995" duration="485000" />
+      <workItem from="1618490696526" duration="982000" />
+      <workItem from="1618498194581" duration="741000" />
+      <workItem from="1618526912373" duration="2858000" />
+      <workItem from="1618633053596" duration="763000" />
+      <workItem from="1618708450641" duration="461000" />
+      <workItem from="1618732174980" duration="1633000" />
+      <workItem from="1618789821700" duration="698000" />
+      <workItem from="1618790621880" duration="1779000" />
+      <workItem from="1618833521732" duration="1103000" />
+      <workItem from="1618875783850" duration="464000" />
+      <workItem from="1618925725386" duration="497000" />
+      <workItem from="1618960878166" duration="1044000" />
+      <workItem from="1618993230453" duration="681000" />
+      <workItem from="1618995988769" duration="433000" />
+      <workItem from="1619048980094" duration="733000" />
+      <workItem from="1619071720039" duration="1054000" />
+      <workItem from="1619135093829" duration="1093000" />
+      <workItem from="1619156639713" duration="598000" />
+      <workItem from="1619159313961" duration="351000" />
+      <workItem from="1619219977431" duration="762000" />
+      <workItem from="1619279132484" duration="598000" />
+      <workItem from="1619315015530" duration="508000" />
+      <workItem from="1619349036160" duration="1093000" />
+      <workItem from="1619364349671" duration="579000" />
+      <workItem from="1619406657014" duration="563000" />
+      <workItem from="1619410153386" duration="271000" />
+      <workItem from="1619420590445" duration="624000" />
+      <workItem from="1619488303544" duration="876000" />
+      <workItem from="1619526413335" duration="722000" />
+      <workItem from="1619565044381" duration="266000" />
+      <workItem from="1619591158225" duration="1067000" />
+      <workItem from="1619679043021" duration="818000" />
+      <workItem from="1619762744005" duration="753000" />
+      <workItem from="1619792493422" duration="86000" />
+      <workItem from="1619792860595" duration="307000" />
+      <workItem from="1619835293100" duration="310000" />
+      <workItem from="1619874598594" duration="676000" />
+      <workItem from="1619941195377" duration="599000" />
+      <workItem from="1620000016209" duration="544000" />
+      <workItem from="1620000754770" duration="350000" />
+      <workItem from="1620018928032" duration="549000" />
+      <workItem from="1620058945814" duration="535000" />
+      <workItem from="1620086409527" duration="821000" />
+      <workItem from="1620099324038" duration="632000" />
+      <workItem from="1620179204044" duration="487000" />
+      <workItem from="1620183528540" duration="265000" />
+      <workItem from="1620185832430" duration="403000" />
+      <workItem from="1620281080255" duration="338000" />
+      <workItem from="1620281441361" duration="835000" />
+      <workItem from="1620368356062" duration="837000" />
+      <workItem from="1620436249100" duration="624000" />
+      <workItem from="1620523691274" duration="490000" />
+      <workItem from="1620604102094" duration="9000" />
+      <workItem from="1620604130423" duration="906000" />
+      <workItem from="1620690076815" duration="469000" />
+      <workItem from="1620706818053" duration="562000" />
+      <workItem from="1620715694787" duration="536000" />
+      <workItem from="1620814612662" duration="598000" />
+      <workItem from="1620819616523" duration="237000" />
+      <workItem from="1620820608840" duration="775000" />
+      <workItem from="1620880970340" duration="399000" />
+      <workItem from="1620947047544" duration="589000" />
+      <workItem from="1621047364902" duration="568000" />
+      <workItem from="1621151906463" duration="879000" />
+      <workItem from="1621234868604" duration="415000" />
+      <workItem from="1621235300990" duration="376000" />
+      <workItem from="1621320743688" duration="598000" />
+      <workItem from="1621326675249" duration="521000" />
+      <workItem from="1621329496083" duration="273000" />
+      <workItem from="1621379569395" duration="487000" />
+      <workItem from="1621417638305" duration="598000" />
+      <workItem from="1621490329115" duration="321000" />
+      <workItem from="1621493449849" duration="316000" />
+      <workItem from="1621576392962" duration="1012000" />
+      <workItem from="1621579924751" duration="462000" />
+      <workItem from="1621644883494" duration="436000" />
+      <workItem from="1621733736634" duration="489000" />
+      <workItem from="1621839457699" duration="309000" />
+      <workItem from="1621839782853" duration="138000" />
+      <workItem from="1621848591323" duration="597000" />
+      <workItem from="1621897669339" duration="598000" />
+      <workItem from="1621930118851" duration="728000" />
+      <workItem from="1622008608654" duration="571000" />
+      <workItem from="1622012519476" duration="558000" />
+      <workItem from="1622032690956" duration="84000" />
+      <workItem from="1622035884856" duration="32000" />
+      <workItem from="1622109100916" duration="598000" />
+      <workItem from="1622127827044" duration="552000" />
+      <workItem from="1622186532431" duration="514000" />
+      <workItem from="1622187245122" duration="495000" />
+      <workItem from="1622244493522" duration="671000" />
+      <workItem from="1622255451948" duration="1881000" />
+      <workItem from="1622332823467" duration="731000" />
+      <workItem from="1622418606806" duration="787000" />
+      <workItem from="1622430729950" duration="708000" />
+      <workItem from="1622453184792" duration="543000" />
+    </task>
+    <task id="LOCAL-00001" summary="중간 저장중(뭔 개념이 이렇게 어려운지 참)">
+      <created>1617555489672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617555489672</updated>
+    </task>
+    <task id="LOCAL-00002" summary="귀찮아">
+      <created>1617702752188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617702752188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="생각보다 어렵네..... 언제쯤 완성할라나">
+      <created>1617813825542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617813825542</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CI 오류 해결중">
+      <created>1617864348525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617864348525</updated>
+    </task>
+    <task id="LOCAL-00005" summary="알림 만들기 ㅈㄴ 어려움">
+      <created>1617900132111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617900132111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="특정시간 알림 기능 초기버전 완성">
+      <created>1618075686085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618075686085</updated>
+    </task>
+    <task id="LOCAL-00007" summary="중간 저장">
+      <created>1618157062313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618157062313</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="android" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="중간 저장중(뭔 개념이 이렇게 어려운지 참)" />
+    <MESSAGE value="귀찮아" />
+    <MESSAGE value="생각보다 어렵네..... 언제쯤 완성할라나" />
+    <MESSAGE value="CI 오류 해결중" />
+    <MESSAGE value="알림 만들기 ㅈㄴ 어려움" />
+    <MESSAGE value="특정시간 알림 기능 초기버전 완성" />
+    <MESSAGE value="중간 저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="중간 저장" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

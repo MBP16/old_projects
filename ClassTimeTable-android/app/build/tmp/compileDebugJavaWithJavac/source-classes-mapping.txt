@@ -1,0 +1,2 @@
+com/example/classtimetable/BuildConfig.java
+ com.example.classtimetable.BuildConfig
