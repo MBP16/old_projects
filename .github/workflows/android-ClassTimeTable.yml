@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: chmod +x gradlew;sudo ./gradlew build
+      run: cd ClassTimeTable-android;chmod +x gradlew;sudo ./gradlew build
   apk:
       name: Generate APK
       runs-on: ubuntu-latest
@@ -30,9 +30,9 @@ jobs:
           with:
             java-version: 1.8
         - name: Build debug APK
-          run: bash ./gradlew assembleDebug --stacktrace
+          run: cd ClassTimeTable-android;bash ./gradlew assembleDebug --stacktrace
         - name: Upload APK
           uses: actions/upload-artifact@v1
           with:
             name: ClassTimeTable_debug
-            path: app/build/outputs/apk/debug
+            path: ClassTimeTable-android/app/build/outputs/apk/debug
