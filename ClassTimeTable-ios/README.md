@@ -1,7 +1,5 @@
 # ClassTimeTable
 
-[![iOS starter workflow](https://github.com/hyunwoo6321/ClassTimeTable/actions/workflows/ios.yml/badge.svg?branch=ios)](https://github.com/hyunwoo6321/ClassTimeTable/actions/workflows/ios.yml)
-
 - 시간표가 메뉴바 상단에서 튀어나오는 ios전용 앱입니다.
 - 기타 os앱은 브랜치 변경을 통해 확인하실수 있습니다.
 - 제작 요구는 디스코드 박현우#3062를 통해 연락해주세요

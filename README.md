@@ -16,3 +16,11 @@
 [![Android CI](https://github.com/hyunwoo6321/old_projects/actions/workflows/android-x86.co.kr.yml/badge.svg?branch=main)](https://github.com/hyunwoo6321/old_projects/actions/workflows/android-x86.co.kr.yml)
 2. IOS
 [![iOS starter workflow](https://github.com/hyunwoo6321/old_projects/actions/workflows/ios-x86.co.kr.yml/badge.svg?branch=main)](https://github.com/hyunwoo6321/old_projects/actions/workflows/ios-x86.co.kr.yml)
+
+- ClassTimeTable 앱
+1. 안드로이드
+[![Android CI](https://github.com/hyunwoo6321/old_projects/actions/workflows/android-ClassTimeTable.yml/badge.svg?branch=main)](https://github.com/hyunwoo6321/old_projects/actions/workflows/android-ClassTimeTable.yml)
+2. IOS
+[![iOS starter workflow](https://github.com/hyunwoo6321/old_projects/actions/workflows/ios-ClassTimeTable.yml/badge.svg?branch=main)](https://github.com/hyunwoo6321/old_projects/actions/workflows/ios-ClassTimeTable.yml)
+3. macOS
+[![macOS Starter Workflow](https://github.com/hyunwoo6321/old_projects/actions/workflows/macOS-ClassTimeTable.yml/badge.svg?branch=main)](https://github.com/hyunwoo6321/old_projects/actions/workflows/macOS-ClassTimeTable.yml)
