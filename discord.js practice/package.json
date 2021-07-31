@@ -1,0 +1,26 @@
+{
+  "name": "discord-js-musicbot",
+  "version": "1.0.0",
+  "description": "musicbot written with javascript",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunwoo6321/practicing_repo.git"
+  },
+  "keywords": [
+    "musicbot",
+    "discord.js"
+  ],
+  "author": "hyunwoo6321",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunwoo6321/practicing_repo/issues"
+  },
+  "homepage": "https://github.com/hyunwoo6321/practicing_repo#readme",
+  "dependencies": {
+    "ffmpeg": "0.0.4"
+  }
+}
