@@ -286,7 +286,7 @@ func ClassEndAlarm_Mon_4(){
         let content = UNMutableNotificationContent()
         content.title = "🔔4교시 수업이 끝났어요🔔"
         content.subtitle = "점심 시간입니다. 맛있는 점심을 먹고 다음 수업을 준비해주세요."
-        content.body = "점심시간: 12:20 AM ~ 13:00 AM"
+        content.body = "점심시간: 12:20 PM ~ 13:00 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -303,7 +303,7 @@ func ClassEndAlarm_Mon_5(){
         let content = UNMutableNotificationContent()
         content.title = "🔔5교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 13:45 AM ~ 13:55 AM"
+        content.body = "쉬는시간: 13:45 PM ~ 13:55 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -320,7 +320,7 @@ func ClassEndAlarm_Mon_6(){
         let content = UNMutableNotificationContent()
         content.title = "🔔6교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 14:40 AM ~ 14:50 AM"
+        content.body = "쉬는시간: 14:40 PM ~ 14:50 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -353,7 +353,7 @@ func AfterClass_Mon(){
         let content = UNMutableNotificationContent()
         content.title = "🔔종례시간이에요🔔"
         content.subtitle = "종례 시간입니다. 출석체크를 하고 선생님의 말씀을 들어보세요"
-        content.body = "15:35~~"
+        content.body = "15:40~~"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_Start.caf"))
         var date = DateComponents()
@@ -558,7 +558,7 @@ func ClassEndAlarm_Tus_4(){
         let content = UNMutableNotificationContent()
         content.title = "🔔4교시 수업이 끝났어요🔔"
         content.subtitle = "점심 시간입니다. 맛있는 점심을 먹고 다음 수업을 준비해주세요."
-        content.body = "점심시간: 12:20 AM ~ 13:00 AM"
+        content.body = "점심시간: 12:20 PM ~ 13:00 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -575,12 +575,12 @@ func ClassEndAlarm_Tus_5(){
         let content = UNMutableNotificationContent()
         content.title = "🔔5교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 13:45 AM ~ 13:55 AM"
+        content.body = "쉬는시간: 13:45 PM ~ 13:55 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
         date.hour = 13
-        date.minute = 51
+        date.minute = 45
         date.weekday = 3
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
         let request = UNNotificationRequest(identifier: "timerdone_CE_Tus_5", content: content, trigger: trigger)
@@ -592,7 +592,7 @@ func ClassEndAlarm_Tus_6(){
         let content = UNMutableNotificationContent()
         content.title = "🔔6교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 14:40 AM ~ 14:50 AM"
+        content.body = "쉬는시간: 14:40 PM ~ 14:50 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -625,7 +625,7 @@ func AfterClass_Tus(){
         let content = UNMutableNotificationContent()
         content.title = "🔔종례시간이에요🔔"
         content.subtitle = "종례 시간입니다. 출석체크를 하고 선생님의 말씀을 들어보세요"
-        content.body = "15:35~~"
+        content.body = "15:40~~"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_Start.caf"))
         var date = DateComponents()
@@ -830,7 +830,7 @@ func ClassEndAlarm_Wed_4(){
         let content = UNMutableNotificationContent()
         content.title = "🔔4교시 수업이 끝났어요🔔"
         content.subtitle = "점심 시간입니다. 맛있는 점심을 먹고 다음 수업을 준비해주세요."
-        content.body = "점심시간: 12:20 AM ~ 13:00 AM"
+        content.body = "점심시간: 12:20 PM ~ 13:00 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -847,12 +847,12 @@ func ClassEndAlarm_Wed_5(){
         let content = UNMutableNotificationContent()
         content.title = "🔔5교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 13:45 AM ~ 13:55 AM"
+        content.body = "쉬는시간: 13:45 PM ~ 13:55 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
         date.hour = 13
-        date.minute = 51
+        date.minute = 45
         date.weekday = 4
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
         let request = UNNotificationRequest(identifier: "timerdone_CE_Wed_5", content: content, trigger: trigger)
@@ -864,7 +864,7 @@ func ClassEndAlarm_Wed_6(){
         let content = UNMutableNotificationContent()
         content.title = "🔔6교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 14:40 AM ~ 14:50 AM"
+        content.body = "쉬는시간: 14:40 PM ~ 14:50 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -897,7 +897,7 @@ func AfterClass_Wed(){
         let content = UNMutableNotificationContent()
         content.title = "🔔종례시간이에요🔔"
         content.subtitle = "종례 시간입니다. 출석체크를 하고 선생님의 말씀을 들어보세요"
-        content.body = "15:35~~"
+        content.body = "14:45~~"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_Start.caf"))
         var date = DateComponents()
@@ -1102,7 +1102,7 @@ func ClassEndAlarm_Thu_4(){
         let content = UNMutableNotificationContent()
         content.title = "🔔4교시 수업이 끝났어요🔔"
         content.subtitle = "점심 시간입니다. 맛있는 점심을 먹고 다음 수업을 준비해주세요."
-        content.body = "점심시간: 12:20 AM ~ 13:00 AM"
+        content.body = "점심시간: 12:20 PM ~ 13:00 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -1119,12 +1119,12 @@ func ClassEndAlarm_Thu_5(){
         let content = UNMutableNotificationContent()
         content.title = "🔔5교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 13:45 AM ~ 13:55 AM"
+        content.body = "쉬는시간: 13:45 PM ~ 13:55 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
         date.hour = 13
-        date.minute = 51
+        date.minute = 45
         date.weekday = 5
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
         let request = UNNotificationRequest(identifier: "timerdone_CE_Thu_5", content: content, trigger: trigger)
@@ -1136,7 +1136,7 @@ func ClassEndAlarm_Thu_6(){
         let content = UNMutableNotificationContent()
         content.title = "🔔6교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 14:40 AM ~ 14:50 AM"
+        content.body = "쉬는시간: 14:40 PM ~ 14:50 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -1169,7 +1169,7 @@ func AfterClass_Thu(){
         let content = UNMutableNotificationContent()
         content.title = "🔔종례시간이에요🔔"
         content.subtitle = "종례 시간입니다. 출석체크를 하고 선생님의 말씀을 들어보세요"
-        content.body = "15:35~~"
+        content.body = "14:45~~"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_Start.caf"))
         var date = DateComponents()
@@ -1374,7 +1374,7 @@ func ClassEndAlarm_Fri_4(){
         let content = UNMutableNotificationContent()
         content.title = "🔔4교시 수업이 끝났어요🔔"
         content.subtitle = "점심 시간입니다. 맛있는 점심을 먹고 다음 수업을 준비해주세요."
-        content.body = "점심시간: 12:20 AM ~ 13:00 AM"
+        content.body = "점심시간: 12:20 PM ~ 13:00 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -1391,12 +1391,12 @@ func ClassEndAlarm_Fri_5(){
         let content = UNMutableNotificationContent()
         content.title = "🔔5교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 13:45 AM ~ 13:55 AM"
+        content.body = "쉬는시간: 13:45 PM ~ 13:55 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
         date.hour = 13
-        date.minute = 51
+        date.minute = 45
         date.weekday = 6
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
         let request = UNNotificationRequest(identifier: "timerdone_CE_Fri_5", content: content, trigger: trigger)
@@ -1408,7 +1408,7 @@ func ClassEndAlarm_Fri_6(){
         let content = UNMutableNotificationContent()
         content.title = "🔔6교시 수업이 끝났어요🔔"
         content.subtitle = "쉬는 시간입니다. 물을 마시고 화장실에 다녀온 뒤 다음 수업을 준비해주세요."
-        content.body = "쉬는시간: 14:40 AM ~ 14:50 AM"
+        content.body = "쉬는시간: 14:40 PM ~ 14:50 PM"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_End.caf"))
         var date = DateComponents()
@@ -1441,7 +1441,7 @@ func AfterClass_Fri(){
         let content = UNMutableNotificationContent()
         content.title = "🔔종례시간이에요🔔"
         content.subtitle = "종례 시간입니다. 출석체크를 하고 선생님의 말씀을 들어보세요"
-        content.body = "15:35~~"
+        content.body = "14:45~~"
         content.badge = 1
         content.sound = UNNotificationSound.init(named: UNNotificationSoundName(rawValue: "ClassBell_Start.caf"))
         var date = DateComponents()
