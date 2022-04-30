@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hyunwoo/Documents/ClassTimeTable-branch-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "/Users/hyunwoo/Documents/old_projects/ClassTimeTable-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/hyunwoo/.gradle/caches/transforms-2/files-2.1/15217b0115168667ade3e87a8bccb80f/material-1.1.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/Users/hyunwoo/.gradle/caches/transforms-3/1c07dbda69a2d707a3f93f2bfb91873a/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

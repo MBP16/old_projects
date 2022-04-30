@@ -13,10 +13,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: set up JDK 1.8
+    - name: set up JDK 11
       uses: actions/setup-java@v3
       with:
-        java-version: 1.8
+        distribution: 'temurin'
+        java-version: 11
     - name: Build with Gradle
       run: cd x86.co.kr-android;chmod +x gradlew;sudo ./gradlew build
   apk:
@@ -25,10 +26,11 @@ jobs:
 
       steps:
         - uses: actions/checkout@v3
-        - name: set up JDK 1.8
+        - name: set up JDK 11
           uses: actions/setup-java@v3
           with:
-            java-version: 1.8
+            distribution: 'temurin'
+            java-version: 11
         - name: Build debug APK
           run: cd x86.co.kr-android;bash ./gradlew assembleDebug --stacktrace
         - name: Upload APK
